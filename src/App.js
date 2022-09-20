@@ -4,7 +4,7 @@ import './style.css';
 import { useState } from 'react';
 import GlobalStyle from './style.js';
 
-const GlobalStyle2 = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
 body {
     font-family: Open sans;
     font-size: 25px;
@@ -25,7 +25,7 @@ const App = () => {
   return (
     <>
       <>
-        <GlobalStyle2 />
+        <GlobalStyle />
         <div>
           <h1>Hello World!</h1>
           <p> Texte de présentation </p>
