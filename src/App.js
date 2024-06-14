@@ -2,7 +2,7 @@ import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 import './style.css';
 import { useState } from 'react';
-import GlobalStyle from './style.js';
+import GlobalStyle from './style.css';
 
 const GlobalStyle = createGlobalStyle`
 body {
